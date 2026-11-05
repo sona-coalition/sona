@@ -66,5 +66,12 @@ A Subsona that can only be viewed by the Curators of that Sona is called *privat
 
 A Schema may be an Artifact for another Schemas. A System may implement a System Design but that System Design may in turn meet System Requirements.
 
+## More details
+
+| Path | What it is |
+| --- | --- |
+| [Work standard](./work-standard/README.md) | How an organisation manages tasks. |
+
+
 [^1]: Note the influence of [Martin-Lof Type Theory](https://www.cse.chalmers.se/~peterd/papers/MartinLöf1984.pdf).
 
