@@ -28,21 +28,23 @@ In some cases it may be easy to determine if an Artifact satisfies a Schema. For
 
 A Schema consists of a definition of *Quality* together with a function called a *Measure* which determines the Quality of a particular Artifact. The schemas definition of Quality enables the results of the Measure function to be compared.
 
-## Entities
+## Agents
 
-Sonas do not exist in isolation. They are used and modified by *Entities*. Entities may be:
+Sonas do not exist in isolation. They are used and modified by *Agents*. Agents may be:
 
 * Human
-* Computational
-* Collections of Other Entities
+* Jichi (computational)
+* Collections of Other Agents
 
-Note this list is not intended to be exhaustive. In general an Entity is anything that is capable of using or modifying a Sona.
+Note this list is not intended to be exhaustive. In general an Agent is anything that is capable of using or modifying a Sona. (The word names a role: an agent is whatever bears responsibility for an activity in a Sona — aligned with the provenance ontology's Agent.)
+
+*Terminology note (sona#8, 2026-11-17): Agent was previously "entity"; Jichi (机气 — machine + life-energy) names computational agents where "computational entity" was used before; Activity names what was called "work".*
 
 ## Contributions, Contributors and Curators
 
 Modifications to a Sona are called *Contributions*. Contributions are normally designed to improve the Quality of the Sona.
 
-With respect to a Sona an Entity can play one of two roles
+With respect to a Sona an Agent can play one of two roles
 
 * *contributor* - who can
   * Propose Contributions to the Sona.
@@ -52,7 +54,7 @@ With respect to a Sona an Entity can play one of two roles
 
 ## Sonapana and Personal Sona
 
-Sonas are created within a *Sonapana* - a network of Sonas. Within the Sonapana each Entity has a Sona for which they are the only Curator. It is through this *personal sona* that entities make and accept Contributions thereby improving the quality of individual Sonas and the Sonapana as a whole. One might think of the personal sona as the digital footprint of the entity.
+Sonas are created within a *Sonapana* - a network of Sonas. Within the Sonapana each Agent has a Sona for which they are the only Curator. It is through this *personal sona* that agents make and accept Contributions thereby improving the quality of individual Sonas and the Sonapana as a whole. One might think of the personal sona as the digital footprint of the agent.
 
 ## Subsonas
 
@@ -60,7 +62,7 @@ Sonas may be composed of other Sonas which in this context are called *Subsonas*
 
 ## Private and Public
 
-A Subsona that can only be viewed by the Curators of that Sona is called *private*. Subsonas of the Sona that are not Private are considered public. Note that the public parts of a Sona are accessible to the Contributors of that Sona. Public parts of a Sona can be made accessible to any Entity of the Sonapana by a Contributor of that Sona.
+A Subsona that can only be viewed by the Curators of that Sona is called *private*. Subsonas of the Sona that are not Private are considered public. Note that the public parts of a Sona are accessible to the Contributors of that Sona. Public parts of a Sona can be made accessible to any Agent of the Sonapana by a Contributor of that Sona.
 
 ## Schemas as Artifacts
 
@@ -70,7 +72,7 @@ A Schema may be an Artifact for another Schemas. A System may implement a System
 
 | Path | What it is |
 | --- | --- |
-| [Work standard](./work-standard/README.md) | How an organisation manages tasks. |
+| [Work standard](./work-standard/README.md) | How an organisation manages tasks. (Its title keeps the old word for now; in the current terminology the concept is *activity* — see the terminology note above.) |
 
 
 [^1]: Note the influence of [Martin-Lof Type Theory](https://www.cse.chalmers.se/~peterd/papers/MartinLöf1984.pdf).

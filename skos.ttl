@@ -6,7 +6,7 @@
 :scheme a skos:ConceptScheme ;
     dct:title "Sona SKOS Concept Scheme"@en ;
     dct:title "Esquema de conceptos SKOS de Sona"@es ;
-    skos:hasTopConcept :artifact, :schema, :collection, :entity .
+    skos:hasTopConcept :artifact, :schema, :collection, :agent, :jichi .
 
 # Core concepts (English / Spanish labels and short definitions)
 :space a skos:Concept ;
@@ -46,20 +46,21 @@
     skos:definition "A reusable part of a Sona (file, directory, or module)."@en ;
     skos:definition "Una parte reutilizable de una Sona (archivo, directorio o módulo)."@es .
 
-:entity a skos:Concept ;
+:agent a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:prefLabel "entity"@en ;
-    skos:prefLabel "entidad"@es ;
-    skos:definition "An actor in the system (human, computational agent, or collection)."@en ;
-    skos:definition "Un actor en el sistema (humano, agente computacional o colección)."@es ;
-    skos:exactMatch sona:Entity .
+    skos:prefLabel "agent"@en ;
+    skos:prefLabel "agente"@es ;
+    skos:definition "An actor in the system (human, jichi, or collection). A role: the bearer of responsibility for an activity."@en ;
+    skos:definition "Un actor en el sistema (humano, jichi o colección). Un rol: el responsable de una actividad."@es ;
+    skos:exactMatch sona:Agent .
 
-:computationalEntity a skos:Concept ;
+:jichi a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:prefLabel "computational entity"@en ;
-    skos:prefLabel "entidad computacional"@es ;
-    skos:definition "A non-human computational agent or system component."@en ;
-    skos:definition "Un agente no humano computacional o componente del sistema."@es .
+    skos:prefLabel "jichi"@en ;
+    skos:prefLabel "jichi"@es ;
+    skos:definition "A computational agent: a non-human computational entity. Coined from Mandarin 机气 (machine + life-energy)."@en ;
+    skos:definition "Un agente computacional: una entidad computacional no humana. Término acuñado del mandarín 机气 (máquina + energía vital)."@es ;
+    skos:exactMatch sona:Jichi .
 
 :human a skos:Concept ;
     skos:inScheme :scheme ;
@@ -71,9 +72,9 @@
 :organisation a skos:Concept ;
     skos:inScheme :scheme ;
     skos:prefLabel "organisation"@en ;
-    skos:prefLabel "entidades colectivas"@es ;
-    skos:definition "A group of entities acting collectively (organisation)."@en ;
-    skos:definition "Un grupo de entidades que actúan colectivamente (organización)."@es .
+    skos:prefLabel "agentes colectivos"@es ;
+    skos:definition "A group of agents acting collectively (organisation)."@en ;
+    skos:definition "Un grupo de agentes que actúan colectivamente (organización)."@es .
 
 :system a skos:Concept ;
     skos:inScheme :scheme ;
@@ -93,8 +94,8 @@
     skos:inScheme :scheme ;
     skos:prefLabel "contribution"@en ;
     skos:prefLabel "contribución"@es ;
-    skos:definition "Work or changes proposed to improve a Sona."@en ;
-    skos:definition "Trabajo o cambios propuestos para mejorar una Sona."@es ;
+    skos:definition "An activity or changes proposed to improve a Sona."@en ;
+    skos:definition "Una actividad o cambios propuestos para mejorar una Sona."@es ;
     skos:exactMatch sona:Contribution .
 
 :proposedContribution a skos:Concept ;
@@ -123,8 +124,8 @@
     skos:inScheme :scheme ;
     skos:prefLabel "contributor"@en ;
     skos:prefLabel "contribuyente"@es ;
-    skos:definition "An entity that proposes contributions to the Sona."@en ;
-    skos:definition "Una entidad que propone contribuciones a la Sona."@es .
+    skos:definition "An agent that proposes contributions to the Sona."@en ;
+    skos:definition "Un agente que propone contribuciones a la Sona."@es .
 
 :baseSchema a skos:Concept ;
     skos:inScheme :scheme ;
