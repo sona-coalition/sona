@@ -6,7 +6,7 @@
 :scheme a skos:ConceptScheme ;
     dct:title "Sona SKOS Concept Scheme"@en ;
     dct:title "Esquema de conceptos SKOS de Sona"@es ;
-    skos:hasTopConcept :artifact, :schema, :collection, :agent .
+    skos:hasTopConcept :artifact, :schema, :collection, :agent, :jichi .
 
 # Core concepts (English / Spanish labels and short definitions)
 :space a skos:Concept ;
