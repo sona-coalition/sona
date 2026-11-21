@@ -41,7 +41,7 @@ sona:Agent a owl:Class ;
 
 sona:Jichi a owl:Class ;
     rdfs:label "Jichi"@en ;
-    rdfs:comment "A computational agent: a non-human computational entity. Coined term (机气 — machine + life-energy), adopted by the Sona Coalition (organisation#41, sona#8, 2026-11-17)."@en ;
+    rdfs:comment "A computational actor or contributor. Coined term (机气 — machine + life-energy), adopted by the Sona Coalition (organisation#41, sona#8, 2026-11-17; definition aligned with the SKOS, 2026-11-21)."@en ;
     rdfs:subClassOf sona:Agent ;
     .
 

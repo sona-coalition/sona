@@ -58,8 +58,8 @@
     skos:inScheme :scheme ;
     skos:prefLabel "jichi"@en ;
     skos:prefLabel "jichi"@es ;
-    skos:definition "A computational agent: a non-human computational entity. Coined from Mandarin 机气 (machine + life-energy)."@en ;
-    skos:definition "Un agente computacional: una entidad computacional no humana. Término acuñado del mandarín 机气 (máquina + energía vital)."@es ;
+    skos:definition "A computational actor or contributor. Coined from Mandarin 机气 (machine + life-energy)."@en ;
+    skos:definition "Un actor o contribuyente computacional. Término acuñado del mandarín 机气 (máquina + energía vital)."@es ;
     skos:exactMatch sona:Jichi .
 
 :human a skos:Concept ;
