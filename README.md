@@ -1,5 +1,7 @@
 # Sona
 
+**English** | [Español](./README.es.md)
+
 The term *Sona* is used to describe a collection of knowledge.
 
 ## Schemas and Artifacts
