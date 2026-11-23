@@ -1,8 +1,10 @@
-# Sona working practices
+# Sona activity practices
 
-*How an organisation manages activity on its sonas, stated in the vocabulary of [Sona](../README.md). Independent of any tool or implementation — for one realisation, see the coalition's GitHub work standard; the correspondence lives in the mapping document.*
+**EN** | [ES](./README.es.md)
 
-*Terminology (sona#8, 2026-11-17): the concepts are now **activity** (formerly "work"), **agent** (formerly "entity"), and **jichi** (computational agent). This document's title and path keep the older word for now — renaming them is a separate decision, because other repositories link here.*
+*How an organisation manages activity on its sonas, stated in the vocabulary of [Sona](../README.md). Independent of any tool or implementation — for one realisation, see the coalition's GitHub [work standard](https://github.com/sona-coalition/organisation/blob/main/work-standard.md); the correspondence lives in the mapping document.*
+
+*Terminology (sona#8, 2026-11-17; title and path renamed 2026-11-23, PR #12): the concepts are now **activity** (formerly "work"), **agent** (formerly "entity"), and **jichi** (computational agent).*
 
 ## Organisations and activity
 
