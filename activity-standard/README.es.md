@@ -1,10 +1,10 @@
 # Prácticas de actividad de Sona
 
-*[English](./README.md) | **Español***
+**[EN](./README.md)** | **ES**
 
-*Cómo una organización gestiona la actividad en sus sonas, expresado en el vocabulario de [Sona](../README.es.md). Independiente de cualquier herramienta o implementación — para una realización, véase el estándar de actividad de GitHub de la coalición; la correspondencia vive en el documento de mapeo.*
+*Cómo una organización gestiona la actividad en sus sonas, expresado en el vocabulario de [Sona](../README.es.md). Independiente de cualquier herramienta o implementación — para una realización, véase el [estándar de actividad de GitHub](https://github.com/sona-coalition/organisation/blob/main/work-standard.md) de la coalición; la correspondencia vive en el documento de mapeo.*
 
-*Terminología (sona#8, 2026-11-17): los conceptos son ahora **actividad** (antes «work»), **agente** (antes «entity») y **jichi** (agente computacional). El título y la ruta de este documento conservan la palabra antigua por ahora — renombrarlos es una decisión aparte, porque otros repositorios enlazan aquí.*
+*Terminología (sona#8, 2026-11-17; título y ruta renombrados 2026-11-23, PR #12): los conceptos son ahora **actividad** (antes «work»), **agente** (antes «entity») y **jichi** (agente computacional).*
 
 ## Organizaciones y actividad
 

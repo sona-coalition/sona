@@ -1,6 +1,6 @@
 # Sona
 
-**English** | [Español](./README.es.md)
+**EN** | [ES](./README.es.md)
 
 The term *Sona* is used to describe a collection of knowledge.
 
@@ -74,7 +74,7 @@ A Schema may be an Artifact for another Schemas. A System may implement a System
 
 | Path | What it is |
 | --- | --- |
-| [Work standard](./work-standard/README.md) | How an organisation manages tasks. (Its title keeps the old word for now; in the current terminology the concept is *activity* — see the terminology note above.) |
+| [Activity standard](./activity-standard/README.md) | How an organisation manages tasks. |
 
 
 [^1]: Note the influence of [Martin-Lof Type Theory](https://www.cse.chalmers.se/~peterd/papers/MartinLöf1984.pdf).

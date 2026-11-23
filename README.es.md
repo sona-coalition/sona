@@ -1,6 +1,6 @@
 # Sona
 
-*[English](./README.md) | **Español***
+**[EN](./README.md)** | **ES**
 
 El término *Sona* se usa para describir una colección de conocimiento.
 
@@ -74,6 +74,6 @@ Un Esquema puede ser un Artefacto para otro Esquema. Un Sistema puede implementa
 
 | Ruta | Qué es |
 | --- | --- |
-| [Estándar de actividad](./work-standard/README.md) | Cómo una organización gestiona tareas. (Su título conserva la palabra antigua por ahora; en la terminología actual el concepto es *actividad* — véase la nota de terminología más arriba.) |
+| [Estándar de actividad](./activity-standard/README.es.md) | Cómo una organización gestiona tareas. |
 
 [^1]: Nótese la influencia de la [Teoría de Tipos de Martin-Löf](https://www.cse.chalmers.se/~peterd/papers/MartinLöf1984.pdf).
